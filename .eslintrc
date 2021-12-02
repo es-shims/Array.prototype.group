@@ -1,0 +1,35 @@
+{
+	"root": true,
+
+	"extends": "@ljharb",
+
+	"rules": {
+		"array-bracket-newline": "off",
+		"id-length": "off",
+		"new-cap": ["error", {
+			"capIsNewExceptions": [
+				"AddValueToKeyedGroup",
+				"Call",
+				"CreateArrayFromList",
+				"CreateDataPropertyOrThrow",
+				"Get",
+				"GetIntrinsic",
+				"IsCallable",
+				"LengthOfArrayLike",
+				"OrdinaryObjectCreate",
+				"ToObject",
+				"ToPropertyKey",
+				"ToString",
+			],
+		}],
+	},
+
+	"overrides": [
+		{
+			"files": "test/tests.js",
+			"rules": {
+				"max-lines-per-function": "off",
+			},
+		},
+	],
+}
