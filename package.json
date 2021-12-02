@@ -19,7 +19,7 @@
 		"posttest": "aud --production",
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"lint": "eslint --ext=js,mjs .",
-		"postlint": "es-shim-api --bound"
+		"postlint": "es-shim-api --bound && evalmd README.md"
 	},
 	"repository": {
 		"type": "git",
@@ -48,6 +48,7 @@
 		"aud": "^1.1.5",
 		"es-value-fixtures": "^1.2.1",
 		"eslint": "^8.4.1",
+		"evalmd": "^0.0.19",
 		"functions-have-names": "^1.2.2",
 		"has-strict-mode": "^1.0.1",
 		"nyc": "^10.3.2",
