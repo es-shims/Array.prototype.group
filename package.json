@@ -1,6 +1,6 @@
 {
 	"name": "array.prototype.groupby",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "An ESnext spec-compliant `Array.prototype.groupBy` shim/polyfill/replacement that works as far down as ES3.",
 	"main": "index.js",
 	"exports": {
