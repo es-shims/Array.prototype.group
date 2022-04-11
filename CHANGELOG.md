@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.0](https://github.com/es-shims/Array.prototype.groupBy/compare/v1.0.0...v1.1.0) - 2022-04-11
+
+### Commits
+
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`ce4f731`](https://github.com/es-shims/Array.prototype.groupBy/commit/ce4f731b32db9a3f86672b5ef9ea66ac0ba04a18)
+- [New] `shim`/`auto`: add `copyWithin` to `Symbol.unscopables` [`972d340`](https://github.com/es-shims/Array.prototype.groupBy/commit/972d340995c6d72e73d846e91db7b56b8c43e492)
+- [Deps] update `es-abstract` [`7c4b5ac`](https://github.com/es-shims/Array.prototype.groupBy/commit/7c4b5ac5cfcfdea8efd069a5b947878c443c41e6)
+
 ## v1.0.0 - 2021-12-14
 
 ### Commits
