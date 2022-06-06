@@ -1,7 +1,7 @@
 'use strict';
 
 var inspect = require('object-inspect');
-var forEach = require('foreach');
+var forEach = require('for-each');
 var v = require('es-value-fixtures');
 
 module.exports = function (group, t) {
