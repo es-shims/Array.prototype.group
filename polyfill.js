@@ -3,5 +3,5 @@
 var implementation = require('./implementation');
 
 module.exports = function getPolyfill() {
-	return Array.prototype.groupBy || implementation;
+	return Array.prototype.group || implementation;
 };

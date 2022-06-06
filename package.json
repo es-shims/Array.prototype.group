@@ -1,7 +1,7 @@
 {
-	"name": "array.prototype.groupby",
+	"name": "array.prototype.group",
 	"version": "1.1.0",
-	"description": "An ESnext spec-compliant `Array.prototype.groupBy` shim/polyfill/replacement that works as far down as ES3.",
+	"description": "An ESnext spec-compliant `Array.prototype.group` shim/polyfill/replacement that works as far down as ES3.",
 	"main": "index.js",
 	"exports": {
 		".": "./index.js",
@@ -25,7 +25,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/es-shims/Array.prototype.groupBy.git"
+		"url": "git+https://github.com/es-shims/Array.prototype.group.git"
 	},
 	"keywords": [
 		"javascript",
@@ -34,16 +34,16 @@
 		"polyfill",
 		"shim",
 		"array",
-		"groupBy",
+		"group",
 		"group",
 		"grouping"
 	],
 	"author": "Jordan Harband <ljharb@gmail.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/es-shims/Array.prototype.groupBy/issues"
+		"url": "https://github.com/es-shims/Array.prototype.group/issues"
 	},
-	"homepage": "https://github.com/es-shims/Array.prototype.groupBy#readme",
+	"homepage": "https://github.com/es-shims/Array.prototype.group#readme",
 	"devDependencies": {
 		"@es-shims/api": "^2.2.3",
 		"@ljharb/eslint-config": "^21.0.0",

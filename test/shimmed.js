@@ -13,15 +13,15 @@ var isEnumerable = Object.prototype.propertyIsEnumerable;
 var runTests = require('./tests');
 
 test('shimmed', function (t) {
-	var fn = Array.prototype.groupBy;
-	t.equal(fn.length, 1, 'Array#groupBy has a length of 1');
+	var fn = Array.prototype.group;
+	t.equal(fn.length, 1, 'Array#group has a length of 1');
 	t.test('Function name', { skip: !functionsHaveNames }, function (st) {
-		st.equal(fn.name, 'groupBy', 'Array#groupBy has name "groupBy"');
+		st.equal(fn.name, 'group', 'Array#group has name "group"');
 		st.end();
 	});
 
 	t.test('enumerability', { skip: !defineProperties.supportsDescriptors }, function (et) {
-		et.equal(false, isEnumerable.call(Array.prototype, 'groupBy'), 'Array#groupBy is not enumerable');
+		et.equal(false, isEnumerable.call(Array.prototype, 'group'), 'Array#group is not enumerable');
 		et.end();
 	});
 
