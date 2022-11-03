@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.2](https://github.com/es-shims/Array.prototype.groupBy/compare/v1.1.1...v1.1.2) - 2022-11-03
+
+### Commits
+
+- [meta] use `npmignore` to autogenerate an npmignore file [`f59a2a7`](https://github.com/es-shims/Array.prototype.groupBy/commit/f59a2a704a3abe8cdc9f8a10b958edbb8ea96a6c)
+- [Deps] update `define-properties`, `es-abstract`, `get-intrinsic` [`954e455`](https://github.com/es-shims/Array.prototype.groupBy/commit/954e45537ce4531988a8596bfa02d8ccb391d607)
+- [actions] update rebase action to use reusable workflow [`103af1c`](https://github.com/es-shims/Array.prototype.groupBy/commit/103af1c6d067557a5cfe5a565c65444e24977049)
+- [Dev Deps] update `aud`, `es-value-fixtures`, `functions-have-names`, `tape` [`b1f318b`](https://github.com/es-shims/Array.prototype.groupBy/commit/b1f318b88b216f13886940788610fb47dcda57bf)
+- [Dev Deps] use `for-each` instead of missing `foreach` [`dfb1fb2`](https://github.com/es-shims/Array.prototype.groupBy/commit/dfb1fb2b992512094d4cf60441a470e3f3b22efb)
+
 ## [v1.1.1](https://github.com/es-shims/Array.prototype.groupBy/compare/v1.1.0...v1.1.1) - 2022-06-06
 
 ### Commits
