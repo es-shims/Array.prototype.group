@@ -2,15 +2,15 @@
 
 var GetIntrinsic = require('get-intrinsic');
 
-var Call = require('es-abstract/2022/Call');
-var CreateDataPropertyOrThrow = require('es-abstract/2022/CreateDataPropertyOrThrow');
-var Get = require('es-abstract/2022/Get');
-var IsCallable = require('es-abstract/2022/IsCallable');
-var LengthOfArrayLike = require('es-abstract/2022/LengthOfArrayLike');
-var OrdinaryObjectCreate = require('es-abstract/2022/OrdinaryObjectCreate');
-var ToObject = require('es-abstract/2022/ToObject');
-var ToPropertyKey = require('es-abstract/2022/ToPropertyKey');
-var ToString = require('es-abstract/2022/ToString');
+var Call = require('es-abstract/2023/Call');
+var CreateDataPropertyOrThrow = require('es-abstract/2023/CreateDataPropertyOrThrow');
+var Get = require('es-abstract/2023/Get');
+var IsCallable = require('es-abstract/2023/IsCallable');
+var LengthOfArrayLike = require('es-abstract/2023/LengthOfArrayLike');
+var OrdinaryObjectCreate = require('es-abstract/2023/OrdinaryObjectCreate');
+var ToObject = require('es-abstract/2023/ToObject');
+var ToPropertyKey = require('es-abstract/2023/ToPropertyKey');
+var ToString = require('es-abstract/2023/ToString');
 
 var $TypeError = GetIntrinsic('%TypeError%');
 
