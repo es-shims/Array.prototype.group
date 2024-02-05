@@ -1,10 +1,9 @@
 'use strict';
 
 var callBound = require('call-bind/callBound');
-var GetIntrinsic = require('get-intrinsic');
 var SameValue = require('es-abstract/2023/SameValue');
 
-var $TypeError = GetIntrinsic('%TypeError%');
+var $TypeError = require('es-errors/type');
 
 var $filter = callBound('Array.prototype.filter');
 var $push = callBound('Array.prototype.push');

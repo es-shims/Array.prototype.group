@@ -1,7 +1,5 @@
 'use strict';
 
-var GetIntrinsic = require('get-intrinsic');
-
 var Call = require('es-abstract/2023/Call');
 var CreateDataPropertyOrThrow = require('es-abstract/2023/CreateDataPropertyOrThrow');
 var Get = require('es-abstract/2023/Get');
@@ -12,11 +10,11 @@ var ToObject = require('es-abstract/2023/ToObject');
 var ToPropertyKey = require('es-abstract/2023/ToPropertyKey');
 var ToString = require('es-abstract/2023/ToString');
 
-var $TypeError = GetIntrinsic('%TypeError%');
+var $TypeError = require('es-errors/type');
 
 var forEach = require('es-abstract/helpers/forEach');
 
-var AddValueToKeyedGroup = require('./AddValueToKeyedGroup'); // TODO: replace with es-abstract 2022 implementation
+var AddValueToKeyedGroup = require('./aos/AddValueToKeyedGroup'); // TODO: replace with es-abstract 2024 implementation
 
 module.exports = function group(callbackfn) {
 	var O = ToObject(this); // step 1
