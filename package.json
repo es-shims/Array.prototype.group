@@ -63,11 +63,11 @@
 		"tape": "^5.7.4"
 	},
 	"dependencies": {
-		"call-bind": "^1.0.2",
-		"define-properties": "^1.2.0",
-		"es-abstract": "^1.22.1",
-		"es-shim-unscopables": "^1.0.0",
-		"get-intrinsic": "^1.2.1"
+		"call-bind": "^1.0.5",
+		"define-properties": "^1.2.1",
+		"es-abstract": "^1.22.3",
+		"es-shim-unscopables": "^1.0.2",
+		"get-intrinsic": "^1.2.3"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
