@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.3](https://github.com/es-shims/Array.prototype.groupBy/compare/v1.1.2...v1.1.3) - 2024-03-23
+
+### Commits
+
+- [Deps] update `call-bind`, `es-abstract`, `es-errors` [`4b6ab21`](https://github.com/es-shims/Array.prototype.groupBy/commit/4b6ab21c004a1a88c896169cdf665d0db29166d3)
+- [Deps] update `define-properties`, `es-abstract`, `get-intrinsic` [`aefd4b9`](https://github.com/es-shims/Array.prototype.groupBy/commit/aefd4b9153728926dfe407cbed6268995ed17f4b)
+- [readme] add deprecation notice [`078df3e`](https://github.com/es-shims/Array.prototype.groupBy/commit/078df3ea669eb9f32c6e199780726cac7df8ccb4)
+- [actions] remove redundant finisher [`9e768d8`](https://github.com/es-shims/Array.prototype.groupBy/commit/9e768d89639744c09213113af6445b7524034cf2)
+- [Refactor] use `es-errors` where possible, so things that only need those do not need `get-intrinsic` [`ef8fda5`](https://github.com/es-shims/Array.prototype.groupBy/commit/ef8fda55e33022041ab9150eeb01d68141cdf233)
+- [Deps] update `call-bind`, `define-properties`, `es-abstract`, `es-shim-unscopables`, `get-intrinsic` [`b768483`](https://github.com/es-shims/Array.prototype.groupBy/commit/b768483897db3da6dd275d84bad7f188ecbe8149)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `aud`, `tape` [`5055f43`](https://github.com/es-shims/Array.prototype.groupBy/commit/5055f43b7cd1a9722ef92dc6cc3a614925d8b931)
+- [Dev Deps] update `aud`, `npmignore`, `tape` [`0ab824c`](https://github.com/es-shims/Array.prototype.groupBy/commit/0ab824caa19fe7eda02be226d2629ca1c0e26786)
+- [Deps] use 2023 es-abstract impls [`94d3e09`](https://github.com/es-shims/Array.prototype.groupBy/commit/94d3e098674635a49e0ada0ce3470ac97aa7d686)
+- [Refactor] use `es-object-atoms` where possible [`8d4ffc9`](https://github.com/es-shims/Array.prototype.groupBy/commit/8d4ffc9671bf083692c7973ee783a2c476103db5)
+- [meta] add missing `engines.node` [`e190cc1`](https://github.com/es-shims/Array.prototype.groupBy/commit/e190cc1e261fde83d6700f43baf34bbbd2bd59fd)
+- [Dev Deps] update `tape` [`a35df78`](https://github.com/es-shims/Array.prototype.groupBy/commit/a35df7886c578f7d5bb0086298a111d960f0ff1a)
+
 ## [v1.1.2](https://github.com/es-shims/Array.prototype.groupBy/compare/v1.1.1...v1.1.2) - 2022-11-03
 
 ### Commits
