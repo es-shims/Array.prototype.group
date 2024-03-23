@@ -1,20 +1,19 @@
 'use strict';
 
-var Call = require('es-abstract/2023/Call');
-var CreateDataPropertyOrThrow = require('es-abstract/2023/CreateDataPropertyOrThrow');
-var Get = require('es-abstract/2023/Get');
-var IsCallable = require('es-abstract/2023/IsCallable');
-var LengthOfArrayLike = require('es-abstract/2023/LengthOfArrayLike');
-var OrdinaryObjectCreate = require('es-abstract/2023/OrdinaryObjectCreate');
+var AddValueToKeyedGroup = require('es-abstract/2024/AddValueToKeyedGroup');
+var Call = require('es-abstract/2024/Call');
+var CreateDataPropertyOrThrow = require('es-abstract/2024/CreateDataPropertyOrThrow');
+var Get = require('es-abstract/2024/Get');
+var IsCallable = require('es-abstract/2024/IsCallable');
+var LengthOfArrayLike = require('es-abstract/2024/LengthOfArrayLike');
+var OrdinaryObjectCreate = require('es-abstract/2024/OrdinaryObjectCreate');
 var ToObject = require('es-object-atoms/ToObject');
-var ToPropertyKey = require('es-abstract/2023/ToPropertyKey');
-var ToString = require('es-abstract/2023/ToString');
+var ToPropertyKey = require('es-abstract/2024/ToPropertyKey');
+var ToString = require('es-abstract/2024/ToString');
 
 var $TypeError = require('es-errors/type');
 
 var forEach = require('es-abstract/helpers/forEach');
-
-var AddValueToKeyedGroup = require('./aos/AddValueToKeyedGroup'); // TODO: replace with es-abstract 2024 implementation
 
 module.exports = function group(callbackfn) {
 	var O = ToObject(this); // step 1
@@ -42,7 +41,7 @@ module.exports = function group(callbackfn) {
 	var obj = OrdinaryObjectCreate(null); // step 7
 	forEach(groups, function (g) { // step 8
 		// var elements = CreateArrayFromList(g.Elements);
-		CreateDataPropertyOrThrow(obj, g.Key, g.Elements);
+		CreateDataPropertyOrThrow(obj, g['[[Key]]'], g['[[Elements]]']);
 	});
 
 	return obj; // step 9
