@@ -6,7 +6,7 @@ var Get = require('es-abstract/2023/Get');
 var IsCallable = require('es-abstract/2023/IsCallable');
 var LengthOfArrayLike = require('es-abstract/2023/LengthOfArrayLike');
 var OrdinaryObjectCreate = require('es-abstract/2023/OrdinaryObjectCreate');
-var ToObject = require('es-abstract/2023/ToObject');
+var ToObject = require('es-object-atoms/ToObject');
 var ToPropertyKey = require('es-abstract/2023/ToPropertyKey');
 var ToString = require('es-abstract/2023/ToString');
 
