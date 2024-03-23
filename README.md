@@ -1,7 +1,17 @@
+# **DEPRECATED**
+
+The proposal this was based on changed, and is now in the language as [Object.groupBy](https://tc39.es/ecma262/#sec-object.groupby)/[Map.groupBy](https://tc39.es/ecma262/#sec-map.groupby).
+
+The replacement packages are:
+ - https://npmjs.com/object.groupby
+ - https://npmjs.com/map.groupby
+
+Please use those instead.
+
 # array.prototype.group <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
-[![dependency status][deps-svg]][deps-url]
-[![dev dependency status][dev-deps-svg]][dev-deps-url]
+[![github actions][actions-image]][actions-url]
+[![coverage][codecov-image]][codecov-url]
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
@@ -76,3 +86,7 @@ Simply clone the repo, `npm install`, and run `npm test`
 [license-url]: LICENSE
 [downloads-image]: https://img.shields.io/npm/dm/array.prototype.group.svg
 [downloads-url]: https://npm-stat.com/charts.html?package=array.prototype.group
+[codecov-image]: https://codecov.io/gh/es-shims/Array.prototype.group/branch/main/graphs/badge.svg
+[codecov-url]: https://app.codecov.io/gh/es-shims/Array.prototype.group/
+[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/es-shims/Array.prototype.group
+[actions-url]: https://github.com/es-shims/Array.prototype.group/actions
